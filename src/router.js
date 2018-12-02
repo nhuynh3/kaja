@@ -2,10 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Api from './views/Api.vue'
-import Form from './views/Form.vue'
+import Collection from './views/Collection.vue'
+import Add from './views/Add.vue'
+import Portfolio from './views/Portfolio.vue'
 
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
@@ -19,9 +20,19 @@ export default new Router({
       component: Api
     },
     {
-      path: '/form',
-      name: 'form',
-      component: Form
+      path: '/collection',
+      name: 'collection',
+      component: Collection
+    },
+    {
+      path: '/add',
+      name: 'add',
+      component: Add
+    },
+    {
+      path: '/portfolio',
+      name: 'portfolio',
+      component: Portfolio
     }
   ]
 })
