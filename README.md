@@ -15,6 +15,7 @@ In this repository, you'll find the technology that powers the core pricing serv
 ### Key Components:
 - Constrained Optimization
 - Dynamic Programming
+- Parametric Modeling / Supervised Learning
 
 ### Steps to Build and Test: 
 <Please list and describe all steps necessary to build and run this product/service>
