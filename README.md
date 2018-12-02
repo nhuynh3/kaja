@@ -17,7 +17,14 @@ In this repository, you'll find the technology that powers the core pricing serv
 - Parametric Modeling / Supervised Learning
 
 ### Steps to Build and Test: 
-In the root directory, run `$ python src/optimizer/jewelry_optimization.py`
+In the root directory,
+
+`$ cd src/optimizer`
+
+`$ python src/optimizer/jewelry_optimization.py`
+
+(Run `$ pip install tqdm` if the package has not been installed prior.)
+
 ### UI Prototype:
 https://xd.adobe.com/view/840f4443-1cb1-47e7-6aea-295b3b663f42-f23e/?fullscreen
 
