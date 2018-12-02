@@ -9,7 +9,7 @@ Electron Cloud is a marketplace that connects independent jewelry makers to buye
   
 In this repository, you'll find the technology that powers the core pricing service offered to jewelers on Electron Cloud. Our platform uses machine learning to determine the optimal pricing of jewelry pieces based on interest in an individual jeweler's work and generalized market demand. We make use of constrained optimization to maximize expected profits of an independent jewelry owner's portfolio of products.
 
-### Model Equation:
+### Objective Function:
 <a href="https://www.codecogs.com/eqnedit.php?latex=\textup{arg&space;max&space;}&space;\pi&space;_{j}&space;E[profit(\pi_{j}^{&space;})&space;|&space;x_t]&space;\textup{&space;s.t.&space;}&space;cost(\pi_{j}^{&space;})&space;\leq&space;\textup{budget}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\textup{arg&space;max&space;}&space;\pi&space;_{j}&space;E[profit(\pi_{j}^{&space;})&space;|&space;x_t]&space;\textup{&space;s.t.&space;}&space;cost(\pi_{j}^{&space;})&space;\leq&space;\textup{budget}" title="\textup{arg max } \pi _{j} E[profit(\pi_{j}^{ }) | x_t] \textup{ s.t. } cost(\pi_{j}^{ }) \leq \textup{budget}" /></a>
 
 ### Key Components:
