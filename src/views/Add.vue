@@ -1,5 +1,5 @@
 <template>
-  <div class="ui centered card">
+  <div class="ui card">
     <h1 class="ui header">Data Input</h1>
 
 <input type="radio" value="One" v-model="picked">
