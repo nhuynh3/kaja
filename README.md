@@ -1,11 +1,13 @@
 
 ## Electron Cloud
-### (insert tagline)
+Refine your Jewels
 
 
 ### Overview: 
 <Please describe this product or service including any machine learning models used>
-Electron Cloud is a marketplace platform for independent jewelery owners to sell to buyers unable to find the perfect pieces elsewhere. Electron Cloud uses machine learning to determine the optimal pricing of jewelery pieces and buyer demand for categories of items. The platform uses constrained optimization to maximize expected profits of independent jewelery owners.
+Electron Cloud is a marketplace that connects independent jewelry makers to buyers.
+  
+In this repository, you'll find the technology that powers the core pricing service offered to jewelers on Electron Cloud. Our platform uses machine learning to determine the optimal pricing of jewelry pieces based on interest in an individual jeweler's work and generalized market demand. We make use of constrained optimization to maximize expected profits of an independent jewelry owner's portfolio of products.
 
 ### Model Equations:
 
