@@ -1,66 +1,25 @@
 
-## Installation
-
-##### Before you start
-
-Before getting started, you should have the following installed and running:
-
-- [X] Yarn - [instructions](https://yarnpkg.com/en/docs/install#mac-stable)
-- [X] Vue Cli 3 - [instructions](https://cli.vuejs.org/guide/installation.html)
-- [X] Python 3
-- [X] Pipenv (optional)
-- [X] Heroku Cli (if deploying to Heroku)
-
-##### Template and Dependencies
-
-* Clone this repository:
-
-	```
-	$ git clone https://github.com/nhuynh3/kaja.git
-	```
-
-* Setup virtual environment, install dependencies, and activate it:
-
-	```
-	$ pipenv install --dev
-	$ pipenv shell
-	```
-
-* Install JS dependencies
-
-	```
-	$ yarn install
-	```
+## Electron Cloud
+Refine your Jewels
 
 
-## Development Server
+### Overview: 
+Electron Cloud is a marketplace that connects independent jewelry makers to buyers.
+  
+In this repository, you'll find the technology that powers the core pricing service offered to jewelers on Electron Cloud. Our platform uses machine learning to determine the optimal pricing of jewelry pieces based on interest in an individual jeweler's work and generalized market demand. We make use of constrained optimization to maximize expected profits of an independent jewelry owner's portfolio of products.
 
-Run Flask Api development server:
+### Objective Function:
+<a href="https://www.codecogs.com/eqnedit.php?latex=\textup{arg&space;max&space;}&space;\pi&space;_{j}&space;E[profit(\pi_{j}^{&space;})&space;|&space;x_t]&space;\textup{&space;s.t.&space;}&space;cost(\pi_{j}^{&space;})&space;\leq&space;\textup{budget}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\textup{arg&space;max&space;}&space;\pi&space;_{j}&space;E[profit(\pi_{j}^{&space;})&space;|&space;x_t]&space;\textup{&space;s.t.&space;}&space;cost(\pi_{j}^{&space;})&space;\leq&space;\textup{budget}" title="\textup{arg max } \pi _{j} E[profit(\pi_{j}^{ }) | x_t] \textup{ s.t. } cost(\pi_{j}^{ }) \leq \textup{budget}" /></a>
 
-```
-$ python run.py
-```
+### Key Components:
+- Constrained Optimization
+- Dynamic Programming
+- Parametric Modeling / Supervised Learning
 
-From another tab in the same directory, start the webpack dev server:
+### Steps to Build and Test: 
+In the root directory, run `$ python src/optimizer/jewelry_optimization.py`
+### UI Prototype:
+https://xd.adobe.com/view/840f4443-1cb1-47e7-6aea-295b3b663f42-f23e/?fullscreen
 
-```
-$ yarn serve
-```
-
-The Vuejs application will be served from `localhost:8080` and the Flask Api
-and static files will be served from `localhost:5000`.
-
-The dual dev-server setup allows you to take advantage of
-webpack's development server with hot module replacement.
-
-Proxy config in `vue.config.js` is used to route the requests
-back to Flask's Api on port 5000.
-
-If you would rather run a single dev server, you can run Flask's
-development server only on `:5000`, but you have to build build the Vue app first
-and the page will not reload on changes.
-
-```
-$ yarn build
-$ python run.py
-```
+### Presentation:
+https://docs.google.com/presentation/d/1UBqfpQ0L6mwN7NK4aXRSmVjIu9kDYm0x70i9sb9QDr4/edit#slide=id.p
