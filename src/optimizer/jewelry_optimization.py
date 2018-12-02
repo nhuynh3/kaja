@@ -75,7 +75,7 @@ def get_fitted_pricing_model_for_product_class(market_data_df, product_class_ide
 
 
 def train_model(market_data_df):
-    # for i in tqdm(range(10000), desc="training_model"): time.sleep(0.0005)
+    for i in tqdm(range(10000), desc="training_model"): time.sleep(0.0005)
     return get_fitted_pricing_model_for_product_class(market_data_df, product_class_identifier="ring")
 
 #
