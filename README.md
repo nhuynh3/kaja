@@ -1,66 +1,18 @@
 
-## Installation
-
-##### Before you start
-
-Before getting started, you should have the following installed and running:
-
-- [X] Yarn - [instructions](https://yarnpkg.com/en/docs/install#mac-stable)
-- [X] Vue Cli 3 - [instructions](https://cli.vuejs.org/guide/installation.html)
-- [X] Python 3
-- [X] Pipenv (optional)
-- [X] Heroku Cli (if deploying to Heroku)
-
-##### Template and Dependencies
-
-* Clone this repository:
-
-	```
-	$ git clone https://github.com/nhuynh3/kaja.git
-	```
-
-* Setup virtual environment, install dependencies, and activate it:
-
-	```
-	$ pipenv install --dev
-	$ pipenv shell
-	```
-
-* Install JS dependencies
-
-	```
-	$ yarn install
-	```
+## Electron Cloud
+### (insert tagline)
 
 
-## Development Server
+### Overview: 
+<Please describe this product or service including any machine learning models used>
+Electron Cloud is a marketplace platform for independent jewelery owners to sell to buyers unable to find the perfect pieces elsewhere. Electron Cloud uses machine learning to determine the optimal pricing of jewelery pieces and buyer demand for categories of items. The platform uses constrained optimization to maximize expected profits of independent jewelery owners.
+	
+### Key Components:
+- Constrained Optimization
+- Dynamic Programming
 
-Run Flask Api development server:
+### Steps to Build and Test: 
+<Please list and describe all steps necessary to build and run this product/service>
 
-```
-$ python run.py
-```
-
-From another tab in the same directory, start the webpack dev server:
-
-```
-$ yarn serve
-```
-
-The Vuejs application will be served from `localhost:8080` and the Flask Api
-and static files will be served from `localhost:5000`.
-
-The dual dev-server setup allows you to take advantage of
-webpack's development server with hot module replacement.
-
-Proxy config in `vue.config.js` is used to route the requests
-back to Flask's Api on port 5000.
-
-If you would rather run a single dev server, you can run Flask's
-development server only on `:5000`, but you have to build build the Vue app first
-and the page will not reload on changes.
-
-```
-$ yarn build
-$ python run.py
-```
+### UI Prototype:
+https://xd.adobe.com/view/840f4443-1cb1-47e7-6aea-295b3b663f42-f23e/?fullscreen
