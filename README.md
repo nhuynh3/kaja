@@ -9,7 +9,8 @@ Electron Cloud is a marketplace that connects independent jewelry makers to buye
   
 In this repository, you'll find the technology that powers the core pricing service offered to jewelers on Electron Cloud. Our platform uses machine learning to determine the optimal pricing of jewelry pieces based on interest in an individual jeweler's work and generalized market demand. We make use of constrained optimization to maximize expected profits of an independent jewelry owner's portfolio of products.
 
-### Model Equations:
+### Model Equation:
+<a href="https://www.codecogs.com/eqnedit.php?latex=\textup{arg&space;max}&space;\prod&space;_{j}&space;E[profit(\prod_{j}^{&space;})&space;|&space;x_t]&space;\textup{&space;s.t.&space;}&space;cost(\prod_{j}^{&space;})&space;\leq&space;\textup{budget}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\textup{arg&space;max}&space;\prod&space;_{j}&space;E[profit(\prod_{j}^{&space;})&space;|&space;x_t]&space;\textup{&space;s.t.&space;}&space;cost(\prod_{j}^{&space;})&space;\leq&space;\textup{budget}" title="\textup{arg max} \prod _{j} E[profit(\prod_{j}^{ }) | x_t] \textup{ s.t. } cost(\prod_{j}^{ }) \leq \textup{budget}" /></a>
 
 ### Key Components:
 - Constrained Optimization
@@ -20,3 +21,6 @@ In this repository, you'll find the technology that powers the core pricing serv
 
 ### UI Prototype:
 https://xd.adobe.com/view/840f4443-1cb1-47e7-6aea-295b3b663f42-f23e/?fullscreen
+
+### Presentation:
+https://docs.google.com/presentation/d/1UBqfpQ0L6mwN7NK4aXRSmVjIu9kDYm0x70i9sb9QDr4/edit#slide=id.p
